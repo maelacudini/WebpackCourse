@@ -1,0 +1,36 @@
+{
+  "name": "webpackcourse",
+  "version": "1.0.0",
+  "description": "This is just a repo to test stuff while following a course on Webpack 5.",
+  "private": true,
+  "scripts": {
+    "lint": "eslint",
+    "dev": "webpack watch --mode development",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/css": "^0.8.1",
+    "@eslint/js": "^9.27.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.89.0",
+    "sass-loader": "^16.0.5",
+    "ts-loader": "^9.5.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "style-loader": "^4.0.0"
+  }
+}

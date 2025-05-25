@@ -1,0 +1,62 @@
+$font-size-2xl: 5rem;
+$font-size-xl: 4rem;
+$font-size-lg: 3rem;
+$font-size-md: 2rem;
+$font-size-sm: 1rem;
+$font-size-xs: 0.5rem;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-2xl {
+  font-size: $font-size-2xl;
+  line-height: 1;
+}
+
+.font-xl {
+  font-size: $font-size-xl;
+  line-height: 1;
+}
+
+.font-lg {
+  font-size: $font-size-lg;
+  line-height: 1;
+}
+
+.font-md {
+  font-size: $font-size-md;
+  line-height: 1;
+}
+
+.font-sm {
+  font-size: $font-size-sm;
+  line-height: 1;
+}
+
+.font-xs {
+  font-size: $font-size-xs;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 64rem;
+    width: 100%;
+  }
+}
