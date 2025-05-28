@@ -4,59 +4,38 @@ $font-size-lg: 3rem;
 $font-size-md: 2rem;
 $font-size-sm: 1rem;
 $font-size-xs: 0.5rem;
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+$text-color: green;
 
 .font-2xl {
   font-size: $font-size-2xl;
   line-height: 1;
+  color: $text-color;
 }
 
 .font-xl {
   font-size: $font-size-xl;
   line-height: 1;
+  color: $text-color;
 }
 
 .font-lg {
   font-size: $font-size-lg;
   line-height: 1;
+  color: $text-color;
 }
 
 .font-md {
   font-size: $font-size-md;
   line-height: 1;
+  color: $text-color;
 }
 
 .font-sm {
   font-size: $font-size-sm;
   line-height: 1;
+  color: $text-color;
 }
 
 .font-xs {
   font-size: $font-size-xs;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  padding: 1rem;
-
-  .section {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 64rem;
-    width: 100%;
-  }
 }

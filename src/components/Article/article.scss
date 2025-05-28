@@ -1,0 +1,41 @@
+$font-size-2xl: 5rem;
+$font-size-xl: 4rem;
+$font-size-lg: 3rem;
+$font-size-md: 2rem;
+$font-size-sm: 1rem;
+$font-size-xs: 0.5rem;
+$text-color: blue;
+
+.font-2xl {
+  font-size: $font-size-2xl;
+  line-height: 1;
+  color: $text-color;
+}
+
+.font-xl {
+  font-size: $font-size-xl;
+  line-height: 1;
+  color: $text-color;
+}
+
+.font-lg {
+  font-size: $font-size-lg;
+  line-height: 1;
+  color: $text-color;
+}
+
+.font-md {
+  font-size: $font-size-md;
+  line-height: 1;
+  color: $text-color;
+}
+
+.font-sm {
+  font-size: $font-size-sm;
+  line-height: 1;
+  color: $text-color;
+}
+
+.font-xs {
+  font-size: $font-size-xs;
+}
