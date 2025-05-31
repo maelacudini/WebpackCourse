@@ -17,16 +17,18 @@ export default {
   output: {
     // The [contenthash] substitution will add a unique hash based on the content of an asset. When the asset's content changes, [contenthash] will change as well.
     filename: '[name].[contenthash].js',
-    path: path.resolve( __dirname, 'dist' ),
+    path: path.resolve( __dirname, './dist' ),
+    // You primarily need publicPath: '/something/' when your compiled assets are served from a different base URL than your main index.html (or other HTML).
+    // publicPath: '/static/',
     clean: true,
   },
   devServer: {
     port: 9000,
     static: {
-      directory: path.resolve( __dirname, 'dist' )
+      directory: path.resolve( __dirname, './dist' )
     },
     devMiddleware: {
-      index: 'index.html',
+      index: 'home.html',
       // Webpack DevServer writes in-memory by default. You'll need to enable writeToDisk in order for http-server to be able to serve files from ./dist directory.
       // Without enabling writeToDisk you'll still see the project running but nothing will be served in the dist folder. 
       // writeToDisk: true,

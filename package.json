@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "lint": "eslint",
-    "dev": "webpack watch",
-    "build": "webpack",
-    "start:webpack": "webpack serve",
-    "start:server": "tsx src/server.ts"
+    "dev:client": "webpack watch",
+    "dev:server": "tsx watch src/server.ts",
+    "dev:webpack": "webpack serve",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@eslint/css": "^0.8.1",
     "@eslint/js": "^9.27.0",
+    "concurrently": "^9.1.2",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.2",
     "eslint": "^9.27.0",
